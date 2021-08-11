@@ -41,7 +41,7 @@ import java.util.*;
 }*/
 
 /* Using Recursion */
-public class Fibonacci {
+/*public class Fibonacci {
 	static int fib(int n) {
 		if (n <= 1) {
 			return n;
@@ -57,10 +57,10 @@ public class Fibonacci {
 		int res = fib(num);
 		System.out.println("Fibonacci of " + num + "th term" + " " + "is" + " " + fib(num));
 	}
-} 
+} */
 
 /* Using Memoization */
-/*public class Fibonacci {
+public class Fibonacci {
 	static int F[] = new int[51];
 	static int fib(int n) {
 		if (n <= 1) {
@@ -83,4 +83,4 @@ public class Fibonacci {
 		int res = fib(num);
 		System.out.println("Fibonacci of " + num + "th term" + " " + "is" + " " + fib(num));
 	}
-}*/
+}
